@@ -266,6 +266,7 @@ Options:
                         Show redirects history
     --no-color          No colored output
     -q, --quiet-mode    Quiet mode
+    --urls-only         Output only the full URLs
 
   Output Settings:
     -o PATH, --output=PATH
@@ -343,6 +344,7 @@ crawl = False
 [view]
 full-url = False
 quiet-mode = False
+urls-only = Faise
 color = True
 show-redirects-history = False
 
